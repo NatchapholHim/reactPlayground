@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+}
+
+.nav {
+    background-color: #696969;
+    height: 99;
+    padding: 22px 40px;
+    text-align: right;
+}
+
+.login {
+    border:2px solid black; 
+    padding: 10px 40px; 
+    border-radius: 3%;
+    vertical-align: center;
+    background-color: white;
+    margin: 20px;
+    text-align: center;
+    color: black;
+    font-family:'Roboto', Helvetica, Arial, san-serif !important;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.register {
+    border:2px solid black; 
+    padding: 10px 40px; 
+    border-radius: 3%;
+    vertical-align: center;
+    background-color: black;
+    margin: 20px;
+    text-align: center;
+    color: white;
+    font-family:'Roboto', Helvetica, Arial, san-serif !important;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.main {
+    background-image: url(https://images.unsplash.com/photo-1561211974-8a2737b4dcac?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+    background-size: cover;
+    height: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #c4c4c4;
+    border: 15px solid white;
+    text-align: center;
+    color: black;
+    font-family: 'Comfortaa', cursive;
+    font-size: 46px;
+}
+
+.union1 {
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    left: 616px;
+    top: 478px;
+    background: linear-gradient(202.17deg, #FF00D6 8.58%, #FF4D00 91.42%);
+}
+
+.union2 {
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    left: 654px;
+    top: 516px;
+    background: #000000;
+    transform: rotate(-180deg);
+}
+
+.footer {
+    background-color: #38556a;
+    height: 99;
+    padding: 15px 40px;
+    text-align: center;
+}   
+
+.fa {
+    padding: 10px;
+    font-size: 25px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0px 40px;
+    border-radius: 50%;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-pinterest {
+    background: #cb2027;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}

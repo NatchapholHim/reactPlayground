@@ -8,19 +8,47 @@
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
-
+      
         <style>
             * {
                 margin: 0;
             }
-            
+
             .nav {
                 background-color: #696969;
                 height: 99;
                 padding: 22px 40px;
                 text-align: right;
             }
-       
+
+            .login {
+                border:2px solid black; 
+                padding: 10px 40px; 
+                border-radius: 3%;
+                vertical-align: center;
+                background-color: white;
+                margin: 20px;
+                text-align: center;
+                color: black;
+                font-family:'Roboto', Helvetica, Arial, san-serif !important;
+                font-weight: bold;
+                font-size: 13px;
+            }
+
+            .register {
+                border:2px solid black; 
+                padding: 10px 40px; 
+                border-radius: 3%;
+                vertical-align: center;
+                background-color: black;
+                margin: 20px;
+                text-align: center;
+                color: white;
+                font-family:'Roboto', Helvetica, Arial, san-serif !important;
+                font-weight: bold;
+                font-size: 13px;
+            }
+
             .main {
                 background-image: url(https://images.unsplash.com/photo-1561211974-8a2737b4dcac?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
                 background-size: cover;
@@ -44,7 +72,26 @@
                 font-family: 'Comfortaa', cursive;
                 font-size: 46px;
             }
-        
+
+            .union1 {
+                position: absolute;
+                width: 38px;
+                height: 38px;
+                left: 616px;
+                top: 478px;
+                background: linear-gradient(202.17deg, #FF00D6 8.58%, #FF4D00 91.42%);
+            }
+
+            .union2 {
+                position: absolute;
+                width: 38px;
+                height: 38px;
+                left: 654px;
+                top: 516px;
+                background: #000000;
+                transform: rotate(-180deg);
+            }
+
             .footer {
                 background-color: #38556a;
                 height: 99;
@@ -81,26 +128,12 @@
                 background: #55ACEE;
                 color: white;
             }
-        </style>
+        </style>  
     </head>
     <body>
         <div class="nav">
-            <span style="border:2px solid black; padding: 10px 40px; border-radius: 3%;
-            vertical-align: center;
-            background-color: white;
-            margin: 20px;
-            text-align: center;
-            color: black;
-            font-family:'Roboto', Helvetica, Arial, san-serif !important;
-            font-size: 13px;"><strong>LOG IN</strong></span>
-            <span style="border:2px solid black; padding: 10px 40px; border-radius: 3%;
-            vertical-align: center;
-            background-color: black;
-            margin: 20px;
-            text-align: center;
-            color: white;
-            font-family:'Roboto', Helvetica, Arial, san-serif !important;
-            font-size: 13px;"><strong>REGISTER</strong></span>
+            <span class="login">LOG IN</span>
+            <span class="register">REGISTER</span>
         </div>
         <div class="main">
             <div class="circle">
